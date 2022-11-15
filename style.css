@@ -1,0 +1,26 @@
+/* style of vertical navigation var */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block; /*content byekhoud ad ma bado */
+    color: #000000;
+    text-decoration: none;
+    padding: 9px 15px
+}
+
+li a.home {
+    color: #f1f1f1;
+    background-color: rgb(34, 172, 34);
+}
+
+li a:hover:not(.home) {
+    color: #f1f1f1;
+    background-color: #55A;
+}
+
